@@ -1,0 +1,629 @@
+,home_team,away_team,date
+0,Rochester JM/Lourdes,Owatonna,Thu May 14
+1,Blake,White Bear Lake,Sat Apr 11
+2,Delano Rockford,Holy Family,Mon May 18
+3,Edina,Prior Lake,Sat Apr 18
+4,Southwest Christian,TrIMAC,Fri May 22
+5,Shakopee,Lakeville North,Wed Apr 29
+6,Grand Rapids,Moorhead,Fri May 15
+7,St. Paul,Mounds View,Tue Apr 14
+8,North St. Paul,Hastings,Thu May  7
+9,Shakopee,Prior Lake,Tue Apr 21
+10,Robbinsdale Armstrong,Bloomington Kennedy,Mon May 11
+11,Mankato,Owatonna,Mon Apr 20
+12,Northfield,Owatonna,Mon May  4
+13,Robbinsdale Armstrong,Anoka,Mon May 18
+14,Spring Lake Park,Centennial,Mon May 18
+15,Holy Family,Holy Angels,Thu Apr 23
+16,New Prague,Mankato,Thu Apr  9
+17,TrIMAC,Henry Sibley,Wed May 13
+18,Duluth,Hermantown Proctor,Wed May  6
+19,Hermantown/Proctor,Duluth,Tue Apr 14
+20,Big Lake,Rocori,Mon May  4
+21,Moorhead,Grand Rapids,Sat Apr 25
+22,Rochester Century,Mankato,Mon May 18
+23,Simley,Cretin-Derham Hall,Fri May 15
+24,Grand Rapids,St. Paul,Sat May 23
+25,Monticello,St. Cloud,Thu May  7
+26,Tartan,Henry Sibley,Tue May  5
+27,Rochester Mayo,Rochester Century,Mon Apr 27
+28,Breck,Roseville,Thu May 21
+29,Simley,Lakeville North,Thu Apr 16
+30,Tartan,Simley,Mon Apr 20
+31,Lakeville North,Eden Prairie,Thu May  7
+32,Totino-Grace,Osseo/Park Center,Mon May 11
+33,Stillwater,East Ridge,Wed Apr 29
+34,Delano Rockford,Shakopee,Sat May 16
+35,Chanhassen,Stillwater,Sat Apr 18
+36,Rocori,Sartell Sauk Rapids,Thu Apr 30
+37,Eden Prairie,Woodbury,Mon May 18
+38,Lakeville North,Wayzata,Sat Apr 25
+39,Minnetonka,St. Michael-Albertville,Thu Apr 23
+40,Bloomington Kennedy,Chanhassen,Thu Apr 23
+41,Chisago Lakes,St. Michael-Albertville,Mon May 18
+42,Waconia,Delano/Rockford,Mon May 11
+43,Burnsville,Lakeville South,Fri May  8
+44,Hill-Murray,Mounds View,Sat Apr 11
+45,Andover,Totino-Grace,Wed May  6
+46,Hastings,Simley,Tue May  5
+47,Breck,Orono,Sat May  9
+48,Woodbury,Simley,Sat Apr 18
+49,Chisago Lakes,Hermantown/Proctor,Thu Apr 16
+50,Tartan,Rochester JM/Lourdes,Wed Apr 15
+51,Chanhassen,Benilde-St. Margarets,Tue May  5
+52,Park of Cottage Grove,Lakeville North,Mon Apr 27
+53,Elk River/Zimmerman,Anoka,Mon Apr 20
+54,Hastings,Mounds View,Sat Apr 25
+55,Duluth,Minneapolis,Sat Apr 25
+56,Maple Grove,Spring Lake Park,Wed May  6
+57,Hermantown Proctor,Grand Rapids,Thu Apr  9
+58,Rogers,Maple Grove,Wed May 20
+59,Mahtomedi,Hastings,Wed May 13
+60,Mounds View,Totino-Grace,Fri Apr 17
+61,Big Lake,Monticello,Mon Apr 27
+62,Champlin Park,Coon Rapids,Mon May 11
+63,Minnetonka,Elk River Zimmerman,Sat Apr 25
+64,Monticello,Becker,Thu Apr 30
+65,Orono,Minneapolis,Mon May 11
+66,Mounds View,Forest Lake,Tue May 12
+67,Cretin-Derham Hall,Woodbury,Fri Apr 24
+68,Chisago Lakes,Hermantown Proctor,Thu Apr 16
+69,Henry Sibley,St. Thomas Academy,Mon Apr 27
+70,Waconia,Delano Rockford,Mon May 11
+71,Eden Prairie,Edina,Tue May  5
+72,Irondale,White Bear Lake,Fri Apr 24
+73,Sartell Sauk Rapids,Rocori,Mon Apr 20
+74,Delano Rockford,Orono,Thu Apr 30
+75,Hopkins,St. Paul,Sat Apr 25
+76,Chaska,Rochester Century,Sat May  2
+77,St. Louis Park,Waconia,Thu Apr 23
+78,Sartell/Sauk Rapids,Brainerd,Thu May 14
+79,Hill-Murray,North St. Paul,Mon Apr 27
+80,Hill-Murray,Mahtomedi,Thu May  7
+81,Becker,Grand Rapids,Sat Apr 18
+82,Irondale,Park of Cottage Grove,Tue May 19
+83,New Prague,Minneapolis,Tue May 12
+84,North St. Paul,Simley,Tue Apr 14
+85,Woodbury,East Ridge,Wed May 13
+86,Roseville,Mounds View,Fri Apr 24
+87,Rochester JM/Lourdes,Mankato,Tue Apr 21
+88,Elk River/Zimmerman,Andover,Mon Apr 27
+89,TrIMAC,Southwest Christian,Fri May 22
+90,Andover,Osseo/Park Center,Mon Apr 20
+91,Stillwater,Prior Lake,Sat Apr 25
+92,Hermantown/Proctor,Northfield,Fri May  8
+93,East Ridge,Tartan,Fri Apr 17
+94,Prior Lake,Benilde-St. Margarets,Sat May  2
+95,Coon Rapids,Centennial,Wed Apr 15
+96,Mounds View,Stillwater,Fri May  1
+97,Farmington,Hopkins,Tue Apr 14
+98,St. Thomas Academy,Benilde-St. Margarets,Tue May 19
+99,Blake,Eden Prairie,Thu May 21
+100,Hastings,Henry Sibley,Thu Apr 23
+101,Cretin-Derham Hall,East Ridge,Tue May 19
+102,Maple Grove,Elk River/Zimmerman,Mon May  4
+103,Minneapolis,St. Paul,Sat Apr 11
+104,Rochester Century,Northfield,Thu May  7
+105,Waconia,Chaska,Thu May  7
+106,Duluth,Forest Lake,Fri Apr 17
+107,Owatonna,Mankato,Thu May  7
+108,Cretin-Derham Hall,Forest Lake,Sat May 16
+109,Forest Lake,Woodbury,Wed May  6
+110,Edina,Hopkins,Tue Apr 21
+111,Holy Angels,Southwest Christian,Fri Apr 17
+112,Duluth,Grand Rapids,Tue Apr 21
+113,Chanhassen,Eagan,Tue Apr 14
+114,Rochester JM Lourdes,Rochester Century,Sat Apr 25
+115,Wayzata,Chanhassen,Tue May 19
+116,Mahtomedi,Chanhassen,Sat May  2
+117,Hill-Murray,Duluth,Tue May 12
+118,Tartan,North St. Paul,Thu Apr 23
+119,Farmington,Eastview,Tue Apr 21
+120,Edina,Bloomington Jefferson,Sat May  2
+121,Eden Prairie,Eagan,Tue Apr 21
+122,Northfield,Rochester Century,Mon Apr 20
+123,St. Thomas Academy,Tartan,Thu May  7
+124,Delano/Rockford,New Prague,Thu May  7
+125,Osseo Park Center,Centennial,Wed Apr 22
+126,Orono,Chaska,Tue Apr 28
+127,St. Cloud,Rocori,Thu May 14
+128,Maple Grove,Elk River Zimmerman,Mon May  4
+129,Becker,Sartell Sauk Rapids,Tue May 19
+130,Mound Westonka,New Prague,Tue Apr 28
+131,Hermantown Proctor,Duluth,Tue Apr 14
+132,White Bear Lake,Wayzata,Mon Apr 27
+133,Forest Lake,Park of Cottage Grove,Wed Apr 22
+134,Edina,Rosemount,Thu May 21
+135,Roseville,Stillwater,Fri May  8
+136,Buffalo,Moorhead,Fri May  1
+137,Southwest Christian,Hopkins,Tue May 12
+138,Chaska,St. Louis Park,Tue May  5
+139,Apple Valley,Lakeville North,Tue May 19
+140,Farmington,Prior Lake,Tue May 12
+141,Sartell Sauk Rapids,Moorhead,Tue Apr 21
+142,Elk River/Zimmerman,Blaine,Wed May  6
+143,Rochester Mayo,Hastings,Thu Apr 16
+144,Apple Valley,Eastview,Thu Apr 23
+145,Osseo Park Center,Anoka,Fri Apr 24
+146,Chisago Lakes,Becker,Thu May 14
+147,Cretin-Derham Hall,Blaine,Sat May  9
+148,Simley,St. Thomas Academy,Wed May 13
+149,White Bear Lake,Cretin-Derham Hall,Fri May  8
+150,East Ridge,Forest Lake,Fri May  8
+151,Woodbury,Eden Prairie,Mon May 18
+152,Blaine,Spring Lake Park,Wed May 20
+153,Rogers,Anoka,Mon May 11
+154,Edina,Eastview,Wed Apr 15
+155,St. Paul,TrIMAC,Wed Apr 22
+156,Grand Rapids,Duluth,Mon May  4
+157,Chisago Lakes,Delano/Rockford,Fri Apr 24
+158,Shakopee,Lakeville South,Fri May  1
+159,Mankato,Rochester Mayo,Mon May  4
+160,Tartan,Rochester JM Lourdes,Wed Apr 15
+161,Osseo Park Center,Breck,Wed May 20
+162,Sartell Sauk Rapids,Monticello,Mon May  4
+163,Bloomington Kennedy,Chaska,Tue May 19
+164,Andover,Buffalo,Thu Apr 30
+165,Tartan,Minneapolis,Mon Apr 13
+166,Minneapolis,Moorhead,Fri May 22
+167,Cretin-Derham Hall,New Prague,Sat Apr 18
+168,Andover,Coon Rapids,Mon Apr 13
+169,Spring Lake Park,Osseo Park Center,Mon May  4
+170,Mound Westonka,Chaska,Tue May 12
+171,Bloomington Jefferson,Apple Valley,Sat May  9
+172,Sartell Sauk Rapids,Brainerd,Thu May 14
+173,Champlin Park,Osseo/Park Center,Mon May 18
+174,St. Michael-Albertville,Buffalo,Tue May 12
+175,Holy Angels,Burnsville,Tue Apr 14
+176,Owatonna,Rochester Century,Mon May 11
+177,Prior Lake,Chanhassen,Sat May  9
+178,Roseville,Park of Cottage Grove,Wed May  6
+179,Hastings,Park of Cottage Grove,Tue Apr 14
+180,Sartell Sauk Rapids,St. Cloud,Mon May 11
+181,St. Louis Park,Hill-Murray,Fri May  1
+182,St. Cloud,Brainerd,Thu Apr 30
+183,Delano Rockford,Monticello,Thu Apr 16
+184,Holy Family,Southwest Christian,Tue May  5
+185,Wayzata,St. Michael-Albertville,Tue Apr 21
+186,Osseo/Park Center,Rogers,Wed May  6
+187,Henry Sibley,St. Louis Park,Sat Apr 18
+188,Grand Rapids,Hermantown/Proctor,Fri May  1
+189,Osseo/Park Center,Anoka,Fri Apr 24
+190,Chisago Lakes,Brainerd,Thu May  7
+191,Bloomington Jefferson,Rosemount,Sat Apr 11
+192,Cretin-Derham Hall,Stillwater,Wed May  6
+193,Eden Prairie,Wayzata,Tue May 12
+194,Rochester Century,Rochester Mayo,Wed May 13
+195,Duluth,Woodbury,Sat May 23
+196,TrIMAC,Breck,Thu Apr 23
+197,Andover,Champlin Park,Wed May 13
+198,Lakeville South,Blake,Thu Apr 16
+199,Champlin Park,Osseo Park Center,Mon May 18
+200,Maple Grove,Champlin Park,Mon Apr 13
+201,Minnetonka,Eastview,Sat Apr 11
+202,TrIMAC,Hastings,Tue May 19
+203,Chaska,Holy Family,Tue Apr 14
+204,Spring Lake Park,Coon Rapids,Mon Apr 27
+205,Holy Family,Mound Westonka,Thu May  7
+206,Lakeville North,Rosemount,Tue Apr 21
+207,Sartell/Sauk Rapids,Monticello,Mon May  4
+208,Holy Angels,Hopkins,Thu May 21
+209,Eagan,Apple Valley,Thu Apr 30
+210,Mound Westonka,Orono,Thu May 14
+211,Minnetonka,Edina,Tue May 12
+212,St. Thomas Academy,Mahtomedi,Thu Apr 23
+213,Farmington,Minnetonka,Sat Apr 18
+214,East Ridge,Eagan,Thu May 21
+215,Hopkins,Eden Prairie,Thu Apr 23
+216,Rochester Century,Rochester JM/Lourdes,Mon May  4
+217,Moorhead,St. Cloud,Thu Apr 16
+218,Waconia,Rocori,Mon May 18
+219,Bloomington Jefferson,Bloomington Kennedy,Tue May  5
+220,Osseo Park Center,Blaine,Wed Apr 29
+221,Rosemount,Wayzata,Sat May  2
+222,Mound Westonka,St. Louis Park,Fri May 15
+223,Woodbury,Mounds View,Wed May 20
+224,Eastview,Bloomington Jefferson,Sat Apr 25
+225,East Ridge,Simley,Mon May 18
+226,St. Louis Park,Chanhassen,Thu Apr 30
+227,Shakopee,Chaska,Sat Apr 18
+228,Rochester Mayo,Mankato,Mon Apr 13
+229,St. Cloud,Chisago Lakes,Tue May  5
+230,Rosemount,Eastview,Thu May  7
+231,TrIMAC,Providence Academy,Thu Apr 16
+232,St. Cloud,Sartell Sauk Rapids,Thu Apr 23
+233,St. Louis Park,Southwest Christian,Sat Apr 25
+234,Delano/Rockford,Becker,Tue Apr 28
+235,Hermantown/Proctor,TrIMAC,Sat May  2
+236,Northfield,Mankato,Fri May 15
+237,Rogers,Spring Lake Park,Thu Apr  9
+238,White Bear Lake,Minnetonka,Sat May 16
+239,Lakeville South,New Prague,Fri Apr 17
+240,Becker,Buffalo,Fri May 15
+241,Minneapolis,Hopkins,Mon May 18
+242,Grand Rapids,Hermantown Proctor,Fri May  1
+243,Holy Family,Breck,Thu Apr 30
+244,Maple Grove,Osseo Park Center,Mon Apr 27
+245,Minneapolis,Holy Angels,Fri May 15
+246,Bloomington Jefferson,Chaska,Thu Apr 23
+247,Coon Rapids,Rogers,Wed Apr 29
+248,Benilde-St. Margarets,Lakeville South,Sat Apr 18
+249,Chisago Lakes,Delano Rockford,Fri Apr 24
+250,Blake,TrIMAC,Thu Apr 30
+251,Mahtomedi,Tartan,Wed Apr 29
+252,Chisago Lakes,Grand Rapids,Fri Apr 17
+253,Bloomington Kennedy,St. Louis Park,Tue May 12
+254,Farmington,Rosemount,Thu Apr 30
+255,Northfield,Rochester JM/Lourdes,Thu Apr 30
+256,Shakopee,Bloomington Kennedy,Tue Apr 14
+257,Stillwater,St. Thomas Academy,Thu Apr 16
+258,TrIMAC,St. Louis Park,Fri May  8
+259,Rochester Century,Rochester JM Lourdes,Mon May  4
+260,Rocori,St. Cloud,Mon Apr 27
+261,Rochester Mayo,Chaska,Sat May 16
+262,Buffalo,Eden Prairie,Sat Apr 25
+263,Providence Academy,Osseo Park Center,Sat Apr 25
+264,Rochester JM/Lourdes,Northfield,Mon May 18
+265,Minnetonka,Grand Rapids,Sat May  9
+266,Southwest Christian,New Prague,Sat May  9
+267,Brainerd,Moorhead,Sat Apr 18
+268,Mound Westonka,Delano/Rockford,Mon May  4
+269,Waconia,Mound Westonka,Thu Apr 30
+270,Spring Lake Park,Totino-Grace,Mon Apr 13
+271,Holy Angels,Providence Academy,Sat May  2
+272,Hermantown/Proctor,Forest Lake,Sat Apr 18
+273,Hastings,Tartan,Mon Apr 27
+274,Woodbury,White Bear Lake,Wed Apr 22
+275,Becker,Monticello,Mon Apr 20
+276,New Prague,Orono,Mon May 18
+277,Orono,Blake,Sat Apr 18
+278,East Ridge,Mounds View,Fri May 15
+279,Anoka,Totino-Grace,Wed Apr 29
+280,Brainerd,Rocori,Mon May 11
+281,Maple Grove,Coon Rapids,Mon Apr 20
+282,Irondale,Duluth,Sat Apr 11
+283,Rochester Century,Hastings,Thu Apr 16
+284,Delano Rockford,St. Michael-Albertville,Thu May 21
+285,Orono,Shakopee,Fri May 22
+286,Waconia,Providence Academy,Sat Apr 18
+287,Waconia,Mankato,Fri Apr 24
+288,Farmington,Eagan,Fri Apr 24
+289,St. Cloud,Becker,Thu May 21
+290,Chisago Lakes,Forest Lake,Mon Apr 20
+291,Rochester Mayo,Northfield,Mon May 11
+292,Buffalo,Mound Westonka,Thu May 21
+293,Simley,Hill-Murray,Thu Apr 23
+294,St. Paul,Hermantown/Proctor,Wed Apr 29
+295,Chisago Lakes,Sartell/Sauk Rapids,Thu May 21
+296,Prior Lake,Eagan,Tue May 19
+297,Rochester JM/Lourdes,Rochester Mayo,Thu May  7
+298,Monticello,Rocori,Thu May 21
+299,Bloomington Kennedy,Owatonna,Sat Apr 25
+300,Lakeville South,Eagan,Tue Apr 28
+301,Prior Lake,Lakeville North,Thu Apr 23
+302,Hermantown Proctor,TrIMAC,Sat May  2
+303,St. Paul,Owatonna,Tue May 12
+304,Big Lake,St. Cloud,Mon May 18
+305,Bloomington Kennedy,Apple Valley,Fri May  1
+306,Osseo Park Center,Elk River/Zimmerman,Wed Apr 15
+307,White Bear Lake,Stillwater,Wed May 20
+308,Minnetonka,Elk River/Zimmerman,Sat Apr 25
+309,Champlin Park,Elk River/Zimmerman,Wed May 20
+310,Mankato,Rochester JM Lourdes,Mon May 11
+311,Lakeville South,Lakeville North,Tue May 12
+312,Roseville,Minneapolis,Mon Apr 27
+313,Irondale,Totino-Grace,Mon Apr 20
+314,Osseo/Park Center,Robbinsdale Armstrong,Wed May 13
+315,White Bear Lake,Roseville,Wed May 13
+316,Elk River/Zimmerman,Robbinsdale Armstrong,Mon Apr 13
+317,Hermantown Proctor,Forest Lake,Sat Apr 18
+318,Blake,Bloomington Jefferson,Thu Apr  9
+319,Grand Rapids,Providence Academy,Sat May 16
+320,Osseo/Park Center,Centennial,Wed Apr 22
+321,Champlin Park,Rogers,Wed Apr 22
+322,Spring Lake Park,Roseville,Fri Apr 17
+323,Duluth,Rochester Century,Sat Apr 18
+324,Chanhassen,St. Thomas Academy,Tue May 12
+325,Henry Sibley,North St. Paul,Fri May 15
+326,St. Paul,Hermantown Proctor,Wed Apr 29
+327,Park of Cottage Grove,Cretin-Derham Hall,Fri May  1
+328,Monticello,Buffalo,Tue Apr 14
+329,Hermantown/Proctor,Grand Rapids,Thu Apr  9
+330,Roseville,Hill-Murray,Mon May 18
+331,Stillwater,Forest Lake,Fri Apr 24
+332,Brainerd,Sartell/Sauk Rapids,Tue Apr 28
+333,Champlin Park,Blaine,Wed Apr 15
+334,Maple Grove,Totino-Grace,Wed May 13
+335,Lakeville North,Eagan,Mon May  4
+336,Elk River Zimmerman,Andover,Mon Apr 27
+337,White Bear Lake,Mahtomedi,Thu Apr 16
+338,Hastings,Cretin-Derham Hall,Sat May  2
+339,White Bear Lake,East Ridge,Fri May  1
+340,Irondale,Woodbury,Wed Apr 29
+341,Holy Angels,Breck,Mon Apr 27
+342,Anoka,Champlin Park,Wed May  6
+343,Buffalo,Delano/Rockford,Mon Apr 13
+344,Holy Family,Waconia,Thu May 14
+345,Benilde-St. Margarets,Minnetonka,Tue Apr 14
+346,Mahtomedi,North St. Paul,Tue May  5
+347,St. Thomas Academy,Rosemount,Sat Apr 18
+348,Totino-Grace,Blaine,Sat Apr 25
+349,Forest Lake,Irondale,Fri May  1
+350,Mahtomedi,Henry Sibley,Mon Apr 20
+351,Owatonna,Northfield,Mon Apr 13
+352,Brainerd,Sartell Sauk Rapids,Tue Apr 28
+353,Spring Lake Park,Champlin Park,Mon Apr 20
+354,Chanhassen,Edina,Thu May  7
+355,Park of Cottage Grove,East Ridge,Thu Apr 23
+356,Burnsville,Farmington,Tue May 19
+357,Hermantown/Proctor,Moorhead,Sat May 16
+358,New Prague,Mound Westonka,Mon Apr 13
+359,Woodbury,Roseville,Fri May  1
+360,Edina,Benilde-St. Margarets,Sat May 16
+361,Coon Rapids,Elk River/Zimmerman,Thu Apr  9
+362,Eagan,Rosemount,Tue May 12
+363,Robbinsdale Armstrong,Totino-Grace,Wed Apr 22
+364,Totino-Grace,Centennial,Wed May 20
+365,Monticello,Big Lake,Thu May 14
+366,Burnsville,Rosemount,Tue Apr 28
+367,Simley,Henry Sibley,Thu May  7
+368,Elk River Zimmerman,Blaine,Wed May  6
+369,Cretin-Derham Hall,Mounds View,Wed Apr 22
+370,Hill-Murray,St. Michael-Albertville,Tue Apr 14
+371,Burnsville,Bloomington Jefferson,Sat Apr 18
+372,Roseville,Forest Lake,Wed May 20
+373,Centennial,Anoka,Mon Apr 27
+374,Monticello,Orono,Sat Apr 25
+375,Chisago Lakes,Sartell Sauk Rapids,Thu May 21
+376,Wayzata,Hopkins,Tue Apr 28
+377,Totino-Grace,Elk River Zimmerman,Mon May 18
+378,Chanhassen,Blake,Fri May 15
+379,Bloomington Kennedy,Burnsville,Thu May  7
+380,Mounds View,White Bear Lake,Wed May  6
+381,Chanhassen,Bloomington Jefferson,Thu Apr 16
+382,Lakeville North,Eastview,Thu Apr 30
+383,Eastview,Lakeville South,Tue May 19
+384,Cretin-Derham Hall,Roseville,Wed Apr 29
+385,Duluth,Hermantown/Proctor,Wed May  6
+386,Hermantown Proctor,Northfield,Fri May  8
+387,Minnetonka,Wayzata,Thu Apr 16
+388,Providence Academy,Osseo/Park Center,Sat Apr 25
+389,Southwest Christian,Henry Sibley,Mon May 18
+390,Monticello,Chisago Lakes,Thu Apr 23
+391,Rochester Mayo,Farmington,Fri Apr 10
+392,Tartan,Park of Cottage Grove,Thu May 21
+393,New Prague,Waconia,Mon May  4
+394,Apple Valley,Rosemount,Thu May 14
+395,Burnsville,Apple Valley,Tue May  5
+396,Hopkins,Minnetonka,Thu Apr 30
+397,Benilde-St. Margarets,Eagan,Sat May  9
+398,Becker,Big Lake,Tue May 12
+399,Elk River Zimmerman,Robbinsdale Armstrong,Mon Apr 13
+400,Rocori,Moorhead,Fri May  8
+401,Blaine,Andover,Mon May 11
+402,Benilde-St. Margarets,Mahtomedi,Sat Apr 25
+403,Park of Cottage Grove,Woodbury,Fri May  8
+404,Rocori,Sartell/Sauk Rapids,Thu Apr 30
+405,Champlin Park,Centennial,Thu Apr  9
+406,Rogers,Totino-Grace,Wed Apr 15
+407,Henry Sibley,St. Paul,Wed Apr 15
+408,Mankato,Northfield,Tue Apr 28
+409,Park of Cottage Grove,White Bear Lake,Fri May 15
+410,St. Cloud,Sartell/Sauk Rapids,Thu Apr 23
+411,Brainerd,Grand Rapids,Tue May 12
+412,Stillwater,Irondale,Wed Apr 22
+413,Hermantown/Proctor,Minneapolis,Fri Apr 24
+414,Coon Rapids,Blaine,Wed Apr 22
+415,Blaine,Rogers,Mon Apr 20
+416,Holy Angels,Bloomington Jefferson,Mon May 18
+417,Mound Westonka,TrIMAC,Wed Apr 15
+418,Southwest Christian,St. Paul,Thu May 14
+419,St. Michael-Albertville,Monticello,Mon May 11
+420,Minneapolis,Apple Valley,Wed Apr 15
+421,Tartan,Duluth,Tue May 19
+422,Mounds View,Park of Cottage Grove,Wed Apr 29
+423,Becker,Brainerd,Mon May  4
+424,Holy Angels,St. Thomas Academy,Tue May  5
+425,Andover,Spring Lake Park,Wed Apr 29
+426,Hastings,St. Thomas Academy,Wed Apr 29
+427,TrIMAC,Southwest Christian,Thu Apr 30
+428,Orono,Holy Family,Mon May  4
+429,North St. Paul,Rochester JM Lourdes,Mon Apr 13
+430,St. Louis Park,Benilde-St. Margarets,Thu May  7
+431,Waconia,Southwest Christian,Mon Apr 20
+432,Stillwater,Woodbury,Fri May 22
+433,Rogers,Andover,Fri May 15
+434,Providence Academy,Mound Westonka,Mon May 18
+435,Buffalo,Orono,Thu May  7
+436,Rochester JM Lourdes,Northfield,Mon May 18
+437,Rochester JM/Lourdes,Rochester Century,Sat Apr 25
+438,Rochester Mayo,Rochester JM/Lourdes,Mon Apr 20
+439,Big Lake,Becker,Thu Apr 23
+440,Delano Rockford,New Prague,Thu May  7
+441,Edina,St. Michael-Albertville,Thu Apr 30
+442,Mound Westonka,Delano Rockford,Mon May  4
+443,Blaine,Anoka,Mon May  4
+444,Hopkins,Breck,Thu May  7
+445,Delano/Rockford,Holy Family,Mon May 18
+446,Centennial,Rogers,Mon Apr 13
+447,Grand Rapids,Brainerd,Tue May 12
+448,Shakopee,Farmington,Thu May 14
+449,Benilde-St. Margarets,Centennial,Thu May 21
+450,Hopkins,Buffalo,Thu Apr 16
+451,Osseo/Park Center,Elk River Zimmerman,Wed Apr 15
+452,North St. Paul,St. Thomas Academy,Mon Apr 20
+453,Elk River Zimmerman,Centennial,Wed Apr 29
+454,Brainerd,St. Cloud,Mon Apr 20
+455,Providence Academy,Blake,Tue Apr 14
+456,Hermantown Proctor,Irondale,Fri Apr 17
+457,Spring Lake Park,Elk River/Zimmerman,Mon May 11
+458,Apple Valley,Prior Lake,Thu May  7
+459,Holy Angels,Mound Westonka,Tue Apr 21
+460,Hastings,Woodbury,Mon May 11
+461,St. Paul,Henry Sibley,Wed May 20
+462,Wayzata,Buffalo,Tue May  5
+463,Rochester Mayo,Bloomington Kennedy,Fri Apr 17
+464,Totino-Grace,Champlin Park,Mon Apr 27
+465,Anoka,Sartell/Sauk Rapids,Fri Apr 10
+466,Holy Family,St. Louis Park,Mon Apr 27
+467,Simley,Holy Angels,Fri May  1
+468,Owatonna,Apple Valley,Sat Apr 18
+469,Robbinsdale Armstrong,Spring Lake Park,Wed Apr 15
+470,Delano/Rockford,Shakopee,Sat May 16
+471,Bloomington Jefferson,St. Louis Park,Thu May 21
+472,Blake,Edina,Tue May 19
+473,Rocori,Waconia,Thu Apr 16
+474,Hermantown/Proctor,Hill-Murray,Thu May 21
+475,St. Michael-Albertville,Hopkins,Tue May  5
+476,Totino-Grace,Osseo Park Center,Mon May 11
+477,Rochester Mayo,Rochester JM Lourdes,Mon Apr 20
+478,Spring Lake Park,Elk River Zimmerman,Mon May 11
+479,Anoka,Maple Grove,Wed Apr 15
+480,Mankato,Rochester JM/Lourdes,Mon May 11
+481,St. Thomas Academy,Cretin-Derham Hall,Thu May 21
+482,Bloomington Jefferson,Lakeville South,Wed Apr 29
+483,Lakeville South,Apple Valley,Tue Apr 21
+484,Blaine,Robbinsdale Armstrong,Mon Apr 27
+485,Blake,Breck,Tue May  5
+486,Rocori,Chisago Lakes,Tue May 19
+487,Brainerd,Big Lake,Thu May 21
+488,Rochester JM Lourdes,Mankato,Tue Apr 21
+489,Rochester JM Lourdes,Owatonna,Thu May 14
+490,Chaska,Chanhassen,Thu May 21
+491,Centennial,Andover,Mon May  4
+492,Totino-Grace,Elk River/Zimmerman,Mon May 18
+493,Champlin Park,Elk River Zimmerman,Wed May 20
+494,Andover,Maple Grove,Wed Apr 22
+495,Hermantown Proctor,Hill-Murray,Thu May 21
+496,Owatonna,Rochester Mayo,Mon May 18
+497,Providence Academy,St. Paul,Thu May  7
+498,Benilde-St. Margarets,Bloomington Kennedy,Thu Apr 30
+499,Duluth,Northfield,Sat May  9
+500,Providence Academy,Breck,Tue Apr 21
+501,Blaine,Maple Grove,Mon May 18
+502,Brainerd,Monticello,Fri May  1
+503,Osseo/Park Center,Blaine,Wed Apr 29
+504,Forest Lake,Grand Rapids,Fri May 22
+505,Breck,Providence Academy,Thu May 14
+506,Lakeville North,Burnsville,Thu May 14
+507,Becker,Chisago Lakes,Mon Apr 27
+508,Hermantown/Proctor,Irondale,Fri Apr 17
+509,Moorhead,St. Michael-Albertville,Sat May  9
+510,Hermantown Proctor,Moorhead,Sat May 16
+511,Anoka,Spring Lake Park,Wed Apr 22
+512,Orono,Holy Angels,Tue May 12
+513,Anoka,Sartell Sauk Rapids,Fri Apr 10
+514,St. Thomas Academy,East Ridge,Sat Apr 25
+515,Eastview,Burnsville,Tue May 12
+516,Centennial,Robbinsdale Armstrong,Mon Apr 20
+517,Rocori,Brainerd,Thu Apr 23
+518,Eastview,Shakopee,Tue May  5
+519,Northfield,Rochester JM Lourdes,Thu Apr 30
+520,Eagan,Burnsville,Mon Apr 20
+521,Park of Cottage Grove,Stillwater,Wed May 13
+522,St. Michael-Albertville,Eden Prairie,Thu Apr 16
+523,Delano/Rockford,St. Michael-Albertville,Thu May 21
+524,Chaska,Benilde-St. Margarets,Thu Apr 16
+525,Robbinsdale Armstrong,Andover,Wed May 20
+526,Rosemount,Shakopee,Tue May 19
+527,Elk River/Zimmerman,Rogers,Wed May 13
+528,Maple Grove,Lakeville North,Fri May 15
+529,Chaska,Delano/Rockford,Thu Apr  9
+530,Eastview,Prior Lake,Tue Apr 28
+531,Elk River/Zimmerman,Centennial,Wed Apr 29
+532,East Ridge,Irondale,Wed May  6
+533,Hopkins,St. Paul,Tue May 19
+534,Big Lake,Chisago Lakes,Thu Apr 30
+535,Roseville,Irondale,Fri May 15
+536,Elk River Zimmerman,Rogers,Wed May 13
+537,Lakeville North,Farmington,Fri May  8
+538,Coon Rapids,Elk River Zimmerman,Thu Apr  9
+539,Anoka,Andover,Thu Apr  9
+540,Park of Cottage Grove,Simley,Mon May 11
+541,Irondale,Cretin-Derham Hall,Wed May 13
+542,Rocori,Becker,Thu May  7
+543,St. Paul,Hill-Murray,Fri Apr 17
+544,Holy Family,Sartell Sauk Rapids,Thu May 21
+545,Stillwater,Wayzata,Tue Apr 14
+546,Centennial,Blaine,Wed May 13
+547,Osseo Park Center,Rogers,Wed May  6
+548,Lakeville South,Rosemount,Fri Apr 24
+549,Eden Prairie,Minnetonka,Tue Apr 28
+550,Forest Lake,White Bear Lake,Wed Apr 29
+551,Henry Sibley,Hill-Murray,Wed Apr 29
+552,North St. Paul,Rochester JM/Lourdes,Mon Apr 13
+553,Eden Prairie,Tartan,Fri Apr 24
+554,Rochester JM Lourdes,Rochester Mayo,Thu May  7
+555,Becker,Sartell/Sauk Rapids,Tue May 19
+556,Blake,Minneapolis,Sat May  9
+557,Buffalo,Minnetonka,Tue Apr 21
+558,Blake,Mound Westonka,Fri Apr 24
+559,Burnsville,Champlin Park,Sat May 16
+560,Benilde-St. Margarets,Bloomington Jefferson,Wed May 13
+561,Delano/Rockford,Monticello,Thu Apr 16
+562,Anoka,Coon Rapids,Wed May 13
+563,Breck,TrIMAC,Tue Apr 14
+564,Centennial,Maple Grove,Mon May 11
+565,Henry Sibley,Holy Family,Fri May  1
+566,Owatonna,Rochester JM/Lourdes,Mon Apr 27
+567,Tartan,Hill-Murray,Wed May 13
+568,Robbinsdale Armstrong,Champlin Park,Wed Apr 29
+569,Minneapolis,Bloomington Kennedy,Tue Apr 21
+570,St. Michael-Albertville,Mahtomedi,Sat May 16
+571,Delano/Rockford,Orono,Thu Apr 30
+572,Rogers,Duluth,Sat May  2
+573,Buffalo,Edina,Mon Apr 27
+574,Robbinsdale Armstrong,Maple Grove,Fri Apr 24
+575,Bloomington Kennedy,Holy Angels,Fri May  8
+576,Apple Valley,Shakopee,Tue May 12
+577,Osseo/Park Center,Breck,Wed May 20
+578,Edina,Wayzata,Thu Apr 23
+579,Rochester Century,Owatonna,Thu Apr 23
+580,Mounds View,Irondale,Fri May  8
+581,St. Thomas Academy,Hill-Murray,Tue May  5
+582,Osseo Park Center,Robbinsdale Armstrong,Wed May 13
+583,Blake,Holy Family,Tue Apr 21
+584,Andover,Osseo Park Center,Mon Apr 20
+585,Chaska,Delano Rockford,Thu Apr  9
+586,Mankato,Rochester Century,Thu Apr 30
+587,Rosemount,Prior Lake,Wed May  6
+588,Breck,Mound Westonka,Fri Apr 17
+589,Buffalo,Delano Rockford,Mon Apr 13
+590,Holy Family,Sartell/Sauk Rapids,Thu May 21
+591,Farmington,Apple Valley,Tue Apr 28
+592,Northfield,Rochester Mayo,Thu Apr 23
+593,Lakeville South,Farmington,Wed May  6
+594,Irondale,St. Michael-Albertville,Wed Apr 15
+595,Rogers,Robbinsdale Armstrong,Mon May  4
+596,Southwest Christian,Waconia,Tue May 19
+597,Delano Rockford,Southwest Christian,Mon Apr 27
+598,Sartell/Sauk Rapids,St. Cloud,Mon May 11
+599,Orono,Waconia,Thu May 21
+600,Hopkins,St. Louis Park,Sat May  9
+601,Elk River Zimmerman,Anoka,Mon Apr 20
+602,Hill-Murray,Hastings,Mon Apr 20
+603,Rochester Mayo,Owatonna,Thu Apr 30
+604,Delano/Rockford,Southwest Christian,Mon Apr 27
+605,New Prague,Holy Family,Mon May 11
+606,Providence Academy,Southwest Christian,Thu Apr  9
+607,Mahtomedi,Eastview,Sat Apr 18
+608,East Ridge,Roseville,Tue Apr 21
+609,Spring Lake Park,Osseo/Park Center,Mon May  4
+610,Sartell/Sauk Rapids,Moorhead,Tue Apr 21
+611,Wayzata,Mahtomedi,Sat May  9
+612,Prior Lake,Lakeville South,Thu May 14
+613,Maple Grove,Osseo/Park Center,Mon Apr 27
+614,Prior Lake,Burnsville,Thu Apr 30
+615,Providence Academy,TrIMAC,Tue Apr 28
+616,Owatonna,Rochester JM Lourdes,Mon Apr 27
+617,Simley,Mahtomedi,Mon Apr 27
+618,Hermantown Proctor,Minneapolis,Fri Apr 24
+619,Totino-Grace,Coon Rapids,Mon May  4
+620,Coon Rapids,Robbinsdale Armstrong,Wed May  6
+621,Delano Rockford,Becker,Tue Apr 28
+622,Mankato,Farmington,Thu Apr 16
+623,Minnetonka,Northfield,Wed May 20
+624,Burnsville,Shakopee,Fri Apr 24
+625,Eagan,Eastview,Thu May 14
+626,Sartell/Sauk Rapids,Rocori,Mon Apr 20
+627,Eagan,Shakopee,Thu May  7

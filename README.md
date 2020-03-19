@@ -6,11 +6,7 @@ TODO:
     
     DATA PREP
     ---------
-    1. a. Create 1 massive list of full upcoming season schedule for all teams combined.
-       b. Each game in massive list will simply be date and team names.
-       c. Remove duplicates.
-    
-    2. a. Create 1 massive list of played games for this season. This will start empty.
+    1. a. Create 1 massive list of played games for this season. This will start empty.
        b. Each game in massive list will include date, team names, prediction outcome, spread prediction, whatever.
     
     LIVE WEBSITE
@@ -31,18 +27,14 @@ TODO:
     We will also have another table that contains all the
     games that have occured this season along with our prediction
     correctness results.
-
-    Now
-    ---
-    1. Mock some upcoming game records.
-    2. Create UI table that shows games for the next
-       two or three days as well as their predictions
-
-    Later
+    
+    
     -----
     1. Decide how to check results of games, load them into
        our predictor records, and update the website with
        the results of our predictions
+    2. Create UI table that shows games for the next
+       two or three days as well as their predictions
        
        
     UI Ideas
