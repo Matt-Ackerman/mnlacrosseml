@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mn lacrosse model</title>
+</head>
+<body>
+
+<h2>mn lacrosse model</h2>
+
+<h3>upcoming game predictions (30 days)</h3>
+<table>
+    <tbody>
+    {% for game in upcoming_games %}
+    <tr>
+        <td>{{game}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

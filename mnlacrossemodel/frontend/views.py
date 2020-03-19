@@ -1,8 +1,9 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 from dateutil import parser
+from mnlacrossemodel.backend.model import Model
 
 import pandas as pd
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def create_upcoming_games_table():
@@ -29,20 +30,24 @@ def create_upcoming_games_table():
 
 
 def index(request):
-
-    print(create_upcoming_games_table())
-
-    text = """
-    <h3>Welcome.</h3>
-    <table width="50%" border="1">
-    <tr>
-        <td>aaa</td>
-        <td>bbb</td>
-    </tr>
-    <tr>
-        <td>ccc</td>
-        <td>ddd</td>
-    </tr>
-    </table>
     """
-    return HttpResponse(text)
+    Controller for index page.
+    :param request: http request
+    :return: index page view
+    """
+    model = Model()
+    upcoming_games = create_upcoming_games_table()
+
+    upcoming_games_with_prediction = []
+    for upcoming_game in upcoming_games:
+        home_team = upcoming_game[0]
+        away_team = upcoming_game[1]
+        pred_score = model.predict_score(home_team, away_team)
+        if pred_score is not None:
+            upcoming_games_with_prediction.append([home_team, pred_score.get('Home'), away_team, pred_score.get('Away')])
+
+    context = {
+        'upcoming_games': upcoming_games_with_prediction
+    }
+
+    return render(request, 'index.html', context)
