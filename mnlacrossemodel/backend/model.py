@@ -9,6 +9,7 @@ from mnlacrossemodel.backend.data.data_prep import get_team_profile_stats
 class Model:
 
     def __init__(self):
+        self.BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.linear_regression = self.create_multivariate_lin_reg_score_model()
 
     def predict_score(self, home_team, away_team):
@@ -52,8 +53,7 @@ class Model:
         return game_to_predict
 
     def create_multivariate_lin_reg_score_model(self):
-        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        data = pd.read_csv(BASE_DIR + '/backend/data/model_data/ml-dataset.csv', index_col=[0])
+        data = pd.read_csv(self.BASE_DIR + '/backend/data/model_data/ml-dataset.csv', index_col=[0])
 
         # split and drop unwanted values
         x = data.drop([

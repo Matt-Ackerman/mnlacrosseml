@@ -4,11 +4,14 @@ TO RUN APP:
 
 TODO:
     
-    DATA PREP
-    ---------
-    1. a. Create 1 massive list of played games for this season. This will start empty.
-       b. Each game in massive list will include date, team names, prediction outcome, spread prediction, whatever.
+    when the app is ran
+        1. every day at 5 pm, it updates to grab predictions for the next 2 days and stores them in an 'upcoming-predictions' file
+        2. it grabs the games from upcoming-predictions, finds their results in laxhub, and moves them to a 'past-predictions' file
+        3. every time a user enters the app, i show them the upcoming-predictions file and the past-predictions file
+        4. also, needs to somehow update our model_data so it experiences newly played games
     
+    
+ 
     LIVE WEBSITE
     -------------
     3. a. Every time a user enters the website, the entry function will grab all games from
@@ -19,32 +22,12 @@ TODO:
           occured. It will show another front end table titled "past games" that shows the prediction correctness.
     
        
-    
-    We will check what games are happening over the next
-    two days, and add them along with their prediction 
-    to a table.
-    
-    We will also have another table that contains all the
-    games that have occured this season along with our prediction
-    correctness results.
-    
-    
-    -----
-    1. Decide how to check results of games, load them into
-       our predictor records, and update the website with
-       the results of our predictions
-    2. Create UI table that shows games for the next
-       two or three days as well as their predictions
-       
-       
     UI Ideas
     --------
     3 tabs. Opens the website on second tab.
         Tab 1. All past predictions in one long list.
         Tab 2. All predictions for next couple days.
         Tab 3. Methodology / contact info
-
-
 
 
 mn-lacrosse-ml

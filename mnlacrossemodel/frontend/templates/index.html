@@ -11,12 +11,24 @@
 <h3>upcoming game predictions (30 days)</h3>
 <table>
     <tbody>
-    {% for game in upcoming_games %}
+    {% for game in upcoming_game_predictions %}
     <tr>
         <td>{{game}}</td>
     </tr>
     {% endfor %}
     </tbody>
 </table>
+
+<h3>past game predictions (all)</h3>
+<table>
+    <tbody>
+    {% for game in past_game_predictions %}
+    <tr>
+        <td>{{game}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
 </body>
 </html>
