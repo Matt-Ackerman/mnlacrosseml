@@ -3,6 +3,24 @@ TO RUN APP:
     python3 manage.py runserver
 
 TODO:
+
+A chron job runs once every day:
+    1. grabs the gameday from the slider that just happened
+    2. adds to past predictions table with the prediction and correctness of it
+    1. grabs the next existing gameday from gameday slider
+    2. populates the upcoming table with it
+    
+    
+all the website does is show the gameday that shows up automatically on the hubs slider page
+    1. puts all the games for that day into the upcoming games table along with a prediction
+    2. appends all the games for the last gameday into the p
+    
+    the chron job, which runs each day at 10 am, creates it 
+
+
+
+    1. capture actual past game results and add them to past-predictions.csv
+    2. add them to the ml-dataset.csv as well
     
     when the app is ran
         1. every day at 5 pm, it updates to grab predictions for the next 2 days and stores them in an 'upcoming-predictions' file

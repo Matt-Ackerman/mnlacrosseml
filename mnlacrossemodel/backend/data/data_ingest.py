@@ -216,33 +216,33 @@ def create_2020_total_state_schedule_csv(schedule_2020):
     print(df)
 
 
-if __name__ == "__main__":
-    conferences_2020 = [
-        "https://www.mnlaxhub.com/page/show/5590474-big-9",
-        "https://www.mnlaxhub.com/page/show/5590481-greater-west-metro",
-        "https://www.mnlaxhub.com/page/show/5590492-imac",
-        "https://www.mnlaxhub.com/page/show/5590498-independent",
-        "https://www.mnlaxhub.com/page/show/5590510-lake",
-        "https://www.mnlaxhub.com/page/show/5590517-metro-east",
-        "https://www.mnlaxhub.com/page/show/5590526-metro-west",
-        "https://www.mnlaxhub.com/page/show/5590534-northwest-suburban",
-        "https://www.mnlaxhub.com/page/show/5590549-south-suburban",
-        "https://www.mnlaxhub.com/page/show/5590563-suburban-east",
-        "https://www.mnlaxhub.com/page/show/5590576-wright-county"
-    ]
-
-    teams2020 = {}
-
-    # loop through conferences and add all the team_data to our dict
-    for conference in conferences_2020:
-        teams2020 = {**teams2020, **gather_all_team_schedules_from_conference(conference)}
-
-    team_schedules2020 = retrieve_schedules_2020(teams2020)
-
-    # create_2020_schedules_csv(team_schedules2020)
-
-    complete_2020_schedule = create_2020_total_state_schedule(team_schedules2020)
-    create_2020_total_state_schedule_csv(complete_2020_schedule)
+# if __name__ == "__main__":
+#     conferences_2020 = [
+#         "https://www.mnlaxhub.com/page/show/5590474-big-9",
+#         "https://www.mnlaxhub.com/page/show/5590481-greater-west-metro",
+#         "https://www.mnlaxhub.com/page/show/5590492-imac",
+#         "https://www.mnlaxhub.com/page/show/5590498-independent",
+#         "https://www.mnlaxhub.com/page/show/5590510-lake",
+#         "https://www.mnlaxhub.com/page/show/5590517-metro-east",
+#         "https://www.mnlaxhub.com/page/show/5590526-metro-west",
+#         "https://www.mnlaxhub.com/page/show/5590534-northwest-suburban",
+#         "https://www.mnlaxhub.com/page/show/5590549-south-suburban",
+#         "https://www.mnlaxhub.com/page/show/5590563-suburban-east",
+#         "https://www.mnlaxhub.com/page/show/5590576-wright-county"
+#     ]
+#
+#     teams2020 = {}
+#
+#     # loop through conferences and add all the team_data to our dict
+#     for conference in conferences_2020:
+#         teams2020 = {**teams2020, **gather_all_team_schedules_from_conference(conference)}
+#
+#     team_schedules2020 = retrieve_schedules_2020(teams2020)
+#
+#     # create_2020_schedules_csv(team_schedules2020)
+#
+#     complete_2020_schedule = create_2020_total_state_schedule(team_schedules2020)
+#     create_2020_total_state_schedule_csv(complete_2020_schedule)
 
 
 # if __name__ == "__main__":

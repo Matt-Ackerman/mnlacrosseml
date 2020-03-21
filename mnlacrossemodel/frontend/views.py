@@ -11,6 +11,13 @@ def index(request):
     :param request: http request
     :return: index page view
     """
+
+
+
+
+
+
+
     upcoming_game_predictions = get_upcoming_game_predictions()
     past_game_predictions = get_past_game_predictions()
     context = {
