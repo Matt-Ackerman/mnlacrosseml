@@ -29,7 +29,7 @@ def index(request):
 
 
 def get_upcoming_game_predictions():
-    upcoming_games_dataframe = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/upcoming-predictions.csv', index_col=[0])
+    upcoming_games_dataframe = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/live-predictions.csv', index_col=[0])
     games = upcoming_games_dataframe.values
 
     upcoming_game_predictions = []
@@ -40,7 +40,7 @@ def get_upcoming_game_predictions():
 
 
 def get_past_game_predictions():
-    past_games_dataframe = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/past-predictions.csv', index_col=[0])
+    past_games_dataframe = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/prediction-results.csv', index_col=[0])
     games = past_games_dataframe.values
 
     past_game_predictions = []

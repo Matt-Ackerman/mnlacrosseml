@@ -93,6 +93,43 @@ def create_game_for_prediction(home_team_name, away_team_name):
     return game_to_predict
 
 
+    # def create_past_game_predictions(self):
+    #     """
+    #     Moves games from upcoming to past.
+    #     """
+    #     data = pd.read_csv(self.BASE_DIR + '/backend/data/prediction_data/live-predictions.csv')
+    #     past_games_with_predictions = []
+    #     for row in data.itertuples():
+    #         string_date = getattr(row, 'date')
+    #
+    #         game_date = parser.parse(string_date)
+    #         curr_date = datetime.now()
+    #
+    #         time_difference = game_date - curr_date
+    #
+    #         if -50 <= time_difference.days < 0:
+    #             past_games_with_predictions.append([
+    #                 getattr(row, 'home_team'),
+    #                 getattr(row, 'home_team_pred_score'),
+    #                 getattr(row, 'away_team'),
+    #                 getattr(row, 'away_team_pred_score'),
+    #                 getattr(row, 'date')
+    #             ])
+    #
+    #     df = pd.DataFrame(past_games_with_predictions, columns=[
+    #         'home_team',
+    #         'home_team_pred_score',
+    #         'away_team',
+    #         'away_team_pred_score',
+    #         'date'
+    #     ])
+    #
+    #     print('--- updating the past predictions csv')
+    #
+    #     # append past games instead of replacing
+    #     df.to_csv(self.BASE_DIR + '/backend/data/prediction_data/prediction-results.csv', mode='a', header=False)
+
+
 if __name__ == "__main__":
     # create models
     win_model = logistic_regression_win_model()
@@ -106,4 +143,3 @@ if __name__ == "__main__":
 
     print('-----')
     print(pred_result)
-
