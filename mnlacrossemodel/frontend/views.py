@@ -9,42 +9,45 @@ def index(request):
     """
     Controller for index page.
     :param request: http request
-    :return: index page view
+    :return: render for the index page view
     """
 
+    live_predictions = get_live_predictions_table_records()
+    prediction_results = get_results_table_records()
 
-
-
-
-
-
-    upcoming_game_predictions = get_upcoming_game_predictions()
-    past_game_predictions = get_past_game_predictions()
     context = {
-        'upcoming_game_predictions': upcoming_game_predictions,
-        'past_game_predictions': past_game_predictions
+        'live_predictions': live_predictions,
+        'prediction_results': prediction_results
     }
 
     return render(request, 'index.html', context)
 
 
-def get_upcoming_game_predictions():
-    upcoming_games_dataframe = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/live-predictions.csv', index_col=[0])
-    games = upcoming_games_dataframe.values
+def get_live_predictions_table_records():
+    """
+    1. Returns the records from the live-predictions.csv file.
+    """
 
-    upcoming_game_predictions = []
+    live_predictions_df = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/live-predictions.csv', index_col=[0])
+    games = live_predictions_df.values
+
+    live_predictions = []
     for game in games:
-        upcoming_game_predictions.append([game[0], game[1], game[2], game[3], game[4]])
+        live_predictions.append([game[0], game[1], game[2], game[3], game[4]])
 
-    return upcoming_game_predictions
+    return live_predictions
 
 
-def get_past_game_predictions():
-    past_games_dataframe = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/prediction-results.csv', index_col=[0])
-    games = past_games_dataframe.values
+def get_results_table_records():
+    """
+    1. Returns the records from the prediction-results.csv file.
+    """
 
-    past_game_predictions = []
+    prediction_results_df = pd.read_csv(BASE_DIR + '/backend/data/prediction_data/prediction-results.csv', index_col=[0])
+    games = prediction_results_df.values
+
+    prediction_results = []
     for game in games:
-        past_game_predictions.append([game[0], game[1], game[2], game[3], game[4]])
+        prediction_results.append([game[0], game[1], game[2], game[3], game[4]])
 
-    return past_game_predictions
+    return prediction_results

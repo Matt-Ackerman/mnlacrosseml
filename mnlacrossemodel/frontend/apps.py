@@ -7,10 +7,12 @@ from django.apps import AppConfig
 class WebsiteConfig(AppConfig):
     name = 'mnlacrossemodel.frontend'
 
-    def ready(self):
+    def app_startup(self):
         """
-        This is triggered on app startup. It is necessary to start our runner, which will predict games, store data, etc.
+        1. This function runs on app startup.
+        2. It starts our chron job, which uses PredictionRunner.py
+           to update our predictions and prediction results front end tables.
         """
         print('--- starting app')
-        from mnlacrossemodel.backend import orchestrator
-        orchestrator.start()
+        from mnlacrossemodel.backend import prediction_runner_chron
+        prediction_runner_chron.start()

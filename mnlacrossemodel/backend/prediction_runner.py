@@ -7,12 +7,24 @@ from mnlacrossemodel.backend.model import Model
 
 
 class PredictionRunner:
+    """
+    This class will be ran using our chron job.
+    It updates our prediction and prediction results tables on our front end.
+    """
 
     def __init__(self):
         self.model = Model()
         self.BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-    def create_upcoming_gameday_predictions(self):
+    def create_live_predictions(self):
+        """
+        1. Gets all the games from the current or next (in case there are no games today) gameday.
+        2. Uses our model to create a score prediction for each game and adds it to the game record.
+        3. Fills the live-predictions.csv file with the records.
+        4. live-predictions.csv will be used to populate the predictions table on the front end.
+        """
+
+        # go to url that lists the current or next gameday
         url = "https://www.mnlaxhub.com/schedule/day/league_instance/114505?subseason=672672"
         page = requests.get(url)
         soup = BeautifulSoup(page.content, 'html.parser')
@@ -44,6 +56,7 @@ class PredictionRunner:
             if pred_score is not None:
                 upcoming_games_with_prediction.append([home_team, pred_score.get('Home'), away_team, pred_score.get('Away'), date])
 
+        # put them in the live-predictions.csv file
         df = pd.DataFrame(upcoming_games_with_prediction, columns=[
             'home_team',
             'home_team_pred_score',
@@ -54,7 +67,16 @@ class PredictionRunner:
         df.to_csv(self.BASE_DIR + '/backend/data/prediction_data/live-predictions.csv')
         print('--- updated the live predictions')
 
-    def create_past_game_predictions(self):
+    def move_live_predictions_to_results(self):
+        """
+        1. Gets all the games from live-predictions.csv now that they have occurred.
+        2. Checks what the date was that these games occurred on.
+        3. Goes to the gameday for this date and finds what the actual results were for the games.
+        4. Creates a combined record for each game including predicted score and actual score.
+        5. Appends the records to prediction-results.csv.
+        6. prediction-results.csv will be used to populate the prediction results table on the front end.
+        """
+
         # checking what date our upcoming predictions are on
         prediction_data = pd.read_csv(self.BASE_DIR + '/backend/data/prediction_data/live-predictions.csv')
         string_date = prediction_data.loc[0,'date']
@@ -94,6 +116,7 @@ class PredictionRunner:
                         away_team_pred_score = getattr(prediction, 'away_team_pred_score')
                         combined_pred_and_actual.append([home_team, result[1], away_team, result[3], date, home_team_pred_score, away_team_pred_score])
 
+            # append past games to prediction-results.csv
             df = pd.DataFrame(combined_pred_and_actual, columns=[
                 'home_team',
                 'home_team_actual_score',
@@ -103,9 +126,6 @@ class PredictionRunner:
                 'home_team_pred_score',
                 'away_team_pred_score',
             ])
-
-
-            # append past games instead of replacing
             df.to_csv(self.BASE_DIR + '/backend/data/prediction_data/prediction-results.csv', mode='a', header=False)
             print('--- updated the prediction results')
 
